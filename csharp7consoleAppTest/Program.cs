@@ -10,6 +10,14 @@ namespace csharp7consoleAppTest
     {
         static void Main(string[] args)
         {
+            setStr(out string a);
+            Console.WriteLine(a);
+            Console.ReadLine();
+        }
+
+        static void setStr(out string a)
+        {
+            a = "shun";
         }
     }
 }
